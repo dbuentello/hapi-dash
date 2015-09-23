@@ -16,6 +16,7 @@ var routes = require('./config/routes')(server);
 // Add the server routes
 server.route(routes);
 
+#this is cool
 if (!module.parent) {
     server.start(function() {
         var message = 'GUI started at: ' + server.info.uri;
